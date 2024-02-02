@@ -1,6 +1,6 @@
 ## Laravel Vue.js 3 SPA Feedback and commenting system
 
-A simple and clean boilerplate to start a new SPA project with authentication, user, roles, permissions management and more features. This boilerplate uses the following tools:
+A simple and clean SPA project with authentication, user, roles, permissions management and more features. This project uses the following tools:
 
 [![](https://img.shields.io/badge/vue.js-v3.3-04C690.svg)](https://vuejs.org)
 [![](https://img.shields.io/badge/Laravel-v10.26.2-ff2e21.svg)](https://laravel.com)
@@ -38,11 +38,10 @@ The following Sanctum features are implemented in this Vue SPA:
 - ✅ Permissions Management
 - ✅ Password Change
 - ✅ E-Mail Verification
-- ✅ Posts Management
+- ✅ Feedback Management
 - ✅ Comment Management - inprogress
 - ✅ Frontend Blog
 - ✅ Bootstrap 5
-- ✅ Automatic Api Documentation  -- route  /api-docs
 
 ## How To Use
 #### Clone the repository
@@ -78,7 +77,7 @@ php artisan db:seed
 ```
 
 
-#### Run Seeder
+#### Link Storage
 
 ```bash
 php artisan storage:link
